@@ -1,0 +1,397 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+/*! End normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css
+ ----------------------------------------------------------------------------------------------------
+*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #FEFEFE;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* CONTENT */
+section {
+  padding: 0px 15px 0px 15px;
+  margin: 10px 0px 10px 0px;
+}
+.container {
+  padding: 0px 15px 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.container:after,
+.row:after,
+.row-padding:after,
+.topnav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* GRID SYSTEM */
+.col {
+  float: left;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+  .col.l1 {
+    width: 8.33333%;
+  }
+  .col.l2 {
+    width: 16.66666%;
+  }
+  .col.l3 {
+    width: 24.99999%;
+  }
+  .col.l4 {
+    width: 33.33333%;
+  }
+  .col.l5 {
+    width: 41.66666%;
+  }
+  .col.l6 {
+    width: 49.99999%;
+  }
+  .col.l7 {
+    width: 58.33333%;
+  }
+  .col.l8 {
+    width: 66.66666%;
+  }
+  .col.l9 {
+    width: 74.99999%;
+  }
+  .col.l10 {
+    width: 83.33333%;
+  }
+  .col.l11 {
+    width: 91.66666%;
+  }
+  .col.l12 {
+    width: 99.99999%;
+  }
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-weight: 100;
+}
+html,
+body {
+  font-family: Roboto-Light, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto-Light, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+/* ALIGN */
+.text-center {
+  text-align: center !important;
+}
+/* LISTS */
+ul.unstyled,
+ul.unstyled li {
+  list-style-type: none;
+}
+ul.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+ul.list li {
+  padding: 15px;
+}
+ul.list li.title {
+  font-weight: bold;
+}
+ul.list li.title span.name {
+  margin-bottom: 30px;
+  font-weight: bold;
+  display: block;
+}
+ul.list li.title span.shade {
+  font-weight: bold;
+}
+ul.list li.title span.hex {
+  font-weight: bold;
+  float: right;
+  text-transform: uppercase;
+}
+ul.list li span.shade {
+  font-weight: bold;
+}
+ul.list li span.hex {
+  font-weight: bold;
+  float: right;
+  text-transform: uppercase;
+}
+ul.list li:last-child {
+  border-bottom: none;
+}
+ul.list li ul li {
+  list-style-type: none;
+}
+ul li ul li {
+  margin-left: 20px;
+}
+dl dt {
+  font-weight: bold;
+}
+/* BUTTONS */
+.btn {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-decoration: none !important;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+/*BTN GO TO SKY*/
+.go-to-sky {
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+}
+
+footer {
+  color: #A2A2A2;
+  background-color: #222;
+  border-top: 5px solid #35afe8;
+}
+/* Deep Footer */
+footer {
+  background-color: #333;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #888;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  font-weight: bold;
+  color: #888;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #35afe8;
+}
+/* HELPER CLASSES */
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
