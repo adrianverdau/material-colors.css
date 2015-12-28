@@ -1,6 +1,8 @@
 # material-colors.css
 Full palette of material design done in css ready to use
 
+![screenshot: material-colors palette](https://raw.githubusercontent.com/adrianverdau/material-colors.css/master/screenshot.png)
+
 Use for change text and backgrounds colors
 
 Example
