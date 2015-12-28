@@ -5,6 +5,8 @@ Use for change text and backgrounds colors
 
 Example
 
-div class="bg-red-400"
+```<div class="bg-red-400"></div>```
+
 or
-p class="text-red-400"
+
+``` <p> class="text-red-400" </p>```
