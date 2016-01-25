@@ -11,4 +11,4 @@ Example
 
 or
 
-``` <p> class="text-red-400" </p>```
+``` <p class="text-red-400"> Text Here </p>```
